@@ -353,7 +353,6 @@ header {
     height: auto;
     max-height: 800px;
     overflow: hidden;
-    margin-bottom: 100px;
   }
 
   .swiper-slide {
