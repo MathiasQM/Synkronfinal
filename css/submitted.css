@@ -356,13 +356,15 @@ header {
     }
 
 
+    /* Header CSS */
     .synkron {
         display: block;
         left: 5%;
-        top: 30px;
-        position: absolute;
+        position: relative;
         font-size: 1.3rem;
         color: white;
+        position: relative;
+        top: 0px;
     }
 
     header {
@@ -373,12 +375,17 @@ header {
         display: none;
     }
 
+    .burgerbarlogo {
+        display: none;
+    }
+
     .navbar {
-        justify-content: end;
-        width: 100%; 
-        height: 6%;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        width: 100%;
+        height: 8%;
         background: rgba(216, 216, 216, 0);
-        border-radius: 16px;
         box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
         backdrop-filter: blur(14.6px);
         -webkit-backdrop-filter: blur(14.6px);
@@ -399,13 +406,17 @@ header {
     .nav-item {
         justify-content: center;
         width: auto;
-        margin-right: 90px;
+        margin-right: 40px;
         padding-top: 0;
         padding-left: 0;
     }
 
+    .nav-item:nth-child(4) {
+        margin-right: 50px;
+    }
+
     .nav-link {
-        font-size: 1.3rem;
+        font-size: 1rem;
     }
 
     .SoMe {
@@ -414,7 +425,8 @@ header {
 
     .muib {
         display: none;
-    }  
+    }
+
 
     .contact {
         font-size: 60px !important;

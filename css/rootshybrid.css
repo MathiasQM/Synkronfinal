@@ -575,13 +575,17 @@ p > span {
     .nav-item {
         justify-content: center;
         width: auto;
-        margin-right: 90px;
+        margin-right: 40px;
         padding-top: 0;
         padding-left: 0;
     }
 
+    .nav-item:nth-child(4) {
+        margin-right: 50px;
+    }
+
     .nav-link {
-        font-size: 1.3rem;
+        font-size: 1rem;
     }
 
     .SoMe {
@@ -591,6 +595,7 @@ p > span {
     .muib {
         display: none;
     }
+
 
     .tekst {
         left: 3%;

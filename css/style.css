@@ -143,38 +143,12 @@ header {
     top: 5%;
 }
 
-.SoMe {
-    padding: 30px 0;
-    width: 100%;
-    display: flex;
-    justify-content: space-evenly;
-    margin: 50px 0 50px 0;
-}
-
-.SoMe-color {
-    width: 60px;
-    height: 60px;
-    background-color: #fff;
-    border-radius: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
 
 .muib {
     font-size: 40px;
     letter-spacing: 3px;
     line-height: 50px;
     text-align: center;
-}
-
-
-.nav-some {
-    width: 40px;
-}
-
-.burgerbarlogo {
-    width: 150px;
 }
 
 .hamburger {
@@ -226,14 +200,6 @@ header {
     left: 0;
 }
 
-/* Her kan du redigere baggrunden @Maltekrog */
-.bg {
-    width: 100vw;
-    height: auto;
-    overflow: hidden;
-}
-
-
 /* Første sektion CSS */
 
 .wrapper {
@@ -269,10 +235,8 @@ header {
 /* landing page */
 
 .landing-section {
-    position: relative;
     width: 100vw;
     height: 100vh;
-    z-index: 11;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -296,30 +260,8 @@ header {
 
 }
 
-.landing-section video {
-    min-height: 100vh;
-}
-
-/* .landingoverlay{
-    position: absolute;
-    width: 100vw;
-    height: 100vw;
-    top: 0%;
-    left: 0%;
-    z-index: 2;
-    background: rgba(73, 43, 43, 0.37);
-    border-radius: 16px;
-    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-    backdrop-filter: blur(4.7px);
-    -webkit-backdrop-filter: blur(4.7px);
-    border: 1px solid rgba(0, 0, 0, 0.3);
-} */
-
 .landing-section img {
-    position: absolute;
-    z-index: 100000;
-    width: 15%;
-    min-width: 200px;
+    width: 20%;
 }
 
 /* Featured */
@@ -458,7 +400,7 @@ header {
 .img1 {
     position: absolute;
     bottom: 100%;
-    z-index: 12;
+    z-index: 10;
 }
 
 .animation {
@@ -475,7 +417,7 @@ header {
     opacity: 0;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
     animation-iteration-count: infinite;
-    animation-duration: 20s;
+    animatin-duration: 20s;
 
 }
 
@@ -1096,16 +1038,6 @@ form h3 {
 .creatortag a:hover {
     opacity: 1;
 }
-/* height queries */
-
-
-@media only screen and (min-height: 1000px) {
-
-    .landing-section video {
-        min-height: 110vh;
-    }
-}
-
 
 /* width queries */
 @media only screen and (min-width: 440px) {
