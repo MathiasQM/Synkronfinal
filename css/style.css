@@ -345,7 +345,7 @@ header {
 /* Først sektion */
 .billeder-mobil {
     height: 100vh;
-    position: static;
+    position: relative;
 }
 
 .swiper {
